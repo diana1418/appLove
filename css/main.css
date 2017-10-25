@@ -11,11 +11,6 @@
   box-sizing: border-box;
 }
 
-
-img {
-  vertical-align: middle;
-}
-
 .container {
   width: 1200px;
   margin-right: auto;
@@ -43,7 +38,7 @@ img {
   margin-bottom: 0px;
 }
 
-.mt-0 {
+.second-text {
   margin-top: 0px;
 }
 
@@ -51,15 +46,10 @@ img {
   margin: 0px;
 }
 
-a {
-  color: #373B47;
-  text-decoration: none;
-}
-
-
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
 body {
   margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 1.71429;
 }
@@ -75,6 +65,11 @@ nav {
   display: inline-block;
 }
 
+figure {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 ul li {
   color: #475769;
   display: inline-block;
@@ -83,37 +78,110 @@ ul li {
   list-style: none;
   padding: 15px;
 }
+
 ul li:hover {
   color: #E95853;
   }
+
 .logo-header {
 display: inline;
 width:60px;
 position: fixed;
 right: 15%;
 top: 3%;
-background-color: red;
 }
+
 .text-uppercase {
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
-}
-
-.container {
-
 }
 
 img {
-  position:inherit;
-  top: 4px;
-
+  vertical-align: middle;
 }
 
 a {
+  background-color: #2ECB70;
+  color: #373B47;
+  display: inline-block;
+  font-weight: bolder;
+  margin: 2px;
+  padding: 5px;
+  text-decoration: none;
   text-transform: uppercase;
-background-color: #2ECB70;
-color: #8DE3B1;
-display: inline-block;
-padding: 5px;
-margin: 2px;
+}
+div {
+  text-align: center;
+}
+
+
+
+/* div .first {
+  display: inline-block;
+  top: 4px;
+}
+*/
+
+/*
+h2 .first-text{
+  font-size: 12px;
+  margin-top: 0;
+  padding-top: 96px;
+}
+h1 .second-text {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+p .third-text {
+  padding-top: 0;
+}
+*/
+
+.first-image, .second-image, .third-image {
+  width: 100px;
+  height: 100px;
+}
+
+ .second {
+   background: #F17C72;
+  display:inline-block;
+  padding-top: 10px;
+  width: 900px;
+  height: 810px;
+}
+
+.little-first, little-second, little-third div {
+  display: block;
+}
+
+.unique-image{
+  width: 100%;
+  height: 50%;
+}
+
+h2, h1, p {
+  padding-top: 4em;
+}
+
+.laptop {
+  width: 650px;
+  height: 650px;
+}
+
+.images .content {
+    display: inline-block;
+    margin: 20px;
+    margin-left: 70px;
+}
+
+.content img {
+    width: 220px;
+    height: 220px;
+}
+
+footer {
+  background-color: #373B47;
+  color: white;
+  padding-bottom: 2px;
+  text-align: center;
+  width: 100%;
 }
